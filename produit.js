@@ -6,7 +6,7 @@ const produitsParCategorie = {
             {
                 id: 1,
                 title: "Levi's Sunset 1-Pocket Standard Shirt Homme (lot de 1)",
-                image: "images/sunset.webp",
+                image: "sunset.webp",
                 rating: "★★★★★",
                 ratingCount: "12,845",
                 price: "24,99 €",
@@ -16,7 +16,7 @@ const produitsParCategorie = {
             {
                 id: 2,
                 title: "EVAEVA Robe vintage rockabilly pour femme - Mini robe élégante - Robe de Noë",
-                image: "images/robe.webp",
+                image: "robe.webp",
                 rating: "★★★★☆",
                 ratingCount: "3,422",
                 price: "39,90 €",
@@ -26,7 +26,7 @@ const produitsParCategorie = {
             {
                 id: 3,
                 title: "THE NORTH FACE Quest Zip-in Veste de pluie Homme (lot de 1)",
-                image: "images/face.webp",
+                image: "face.webp",
                 rating: "★★★★★",
                 ratingCount: "8,763",
                 price: "129,95 €",
@@ -35,7 +35,7 @@ const produitsParCategorie = {
             {
                 id: 4,
                 title: "ShopXpress Essentials - Pantalon Chino sans Pince Infroissable",
-                image: "images/pontalon.webp",
+                image: "pontalon.webp",
                 rating: "★★★★☆",
                 ratingCount: "6,912",
                 price: "79,50 €",
@@ -45,7 +45,7 @@ const produitsParCategorie = {
             {
                 id: 5,
                 title: "Nike BV6855 - Short De Football - Homme",
-                image: "images/short.webp",
+                image: "short.webp",
                 rating: "★★★★★",
                 ratingCount: "15,237",
                 price: "32,00 €",
@@ -54,7 +54,7 @@ const produitsParCategorie = {
             {
                 id: 6,
                 title: "Pull classique à col rond pour homme 100 % laine mérinos Pull chaud à manches longues",
-                image: "images/pull.webp",
+                image: "pull.webp",
                 rating: "★★★★☆",
                 ratingCount: "2,845",
                 price: "45,90 €",
@@ -64,7 +64,7 @@ const produitsParCategorie = {
             {
                 id: 7,
                 title: "COOFANDY à manches longues Chemise en lin pour homme - Col Henley",
-                image: "images/chemisel.webp",
+                image: "chemisel.webp",
                 rating: "★★★★☆",
                 ratingCount: "9,431",
                 price: "29,99 €",
@@ -73,7 +73,7 @@ const produitsParCategorie = {
             {
                 id: 8,
                 title: "PUMA Rebound V6 BasketsMixte",
-                image: "images/chausseur.webp",
+                image: "chausseur.webp",
                 rating: "★★★★★",
                 ratingCount: "7,658",
                 price: "54,95 €",
@@ -89,7 +89,7 @@ const produitsParCategorie = {
             {
                 id: 1,
                 title: "KESSER® Dutch Oven - Ensemble de casseroles en fonte",
-                image: "images/marmette.jpg",
+                image: "marmette.jpg",
                 rating: "★★★★★",
                 ratingCount: "3,456",
                 price: "49,99 €",
@@ -99,7 +99,7 @@ const produitsParCategorie = {
             {
                 id: 2,
                 title: "VINATO Couteau Cuisine, Couteau de Cuisine 14 Pièces avec Aiguiseur ",
-                image: "images/couteau.webp",
+                image: "couteau.webp",
                 rating: "★★★★☆",
                 ratingCount: "2,134",
                 price: "59,99 €",
@@ -109,7 +109,7 @@ const produitsParCategorie = {
             {
                 id: 3,
                 title: "KB-ELEMENTS Robot Cuiseur 3 en 1, 2500 W, 8,5 l, hachoir à viande, pétrisseur",
-                image: "images/robotcuiseur.webp",
+                image: "robotcuiseur.webp",
                 rating: "★★★★★",
                 ratingCount: "4,321",
                 price: "129,99 €",
@@ -119,7 +119,7 @@ const produitsParCategorie = {
             {
                 id: 4,
                 title: "Daniks Planche Set de 3 Planches à Découper | Bambou Planche a Decouper avec Trous de Suspension",
-                image: "images/planche.webp",
+                image: "planche.webp",
                 rating: "★★★★☆",
                 ratingCount: "1,987",
                 price: "24,90 €",
@@ -129,7 +129,7 @@ const produitsParCategorie = {
             {
                 id: 5,
                 title: "Bonsenkitchen Mixeur Plongeant, 4-en-1 Mixeur Plongeur Multifonction Batteur Mélangeur 1000W",
-                image: "images/mixeur.webp",
+                image: "mixeur.webp",
                 rating: "★★★★★",
                 ratingCount: "3,210",
                 price: "39,99 €",
@@ -139,7 +139,7 @@ const produitsParCategorie = {
             {
                 id: 6,
                 title: "Machine à pain en acier inoxydable, 650 W, entièrement automatique",
-                image: "images/pain.webp",
+                image: "pain.webp",
                 rating: "★★★★☆",
                 ratingCount: "1,543",
                 price: "79,99 €",
@@ -149,7 +149,7 @@ const produitsParCategorie = {
             {
                 id: 7,
                 title: "SEVERIN - Combinaison de raclette et fondue 1400 W Noir RG 2347",
-                image: "images/tefal.webp",
+                image: "tefal.webp",
                 rating: "★★★★☆",
                 ratingCount: "876",
                 price: "49,95 €",
@@ -159,7 +159,7 @@ const produitsParCategorie = {
             {
                 id: 8,
                 title: "WALDWERK Cafetière à expresso (300 ml) - Compatible avec tous les types de plaques de cuisson ",
-                image: "images/cafetiria.webp",
+                image: "cafetiria.webp",
                 rating: "★★★★★",
                 ratingCount: "2,345",
                 price: "29,99 €",
@@ -174,7 +174,7 @@ const produitsParCategorie = {
             {
                 id: 1,
                 title: "YPLUS Ensemble de géométrie pour étudiants, rapporteur de mathématiques",
-                image: "images/maped.webp",
+                image: "maped.webp",
                 rating: "★★★★☆",
                 ratingCount: "1,245",
                 price: "24,90 €",
@@ -184,7 +184,7 @@ const produitsParCategorie = {
             {
                 id: 2,
                 title: "Stylos à Bille Pack de 12 - Couleurs Assorties",
-                image: "images/stylo.webp",
+                image: "stylo.webp",
                 rating: "★★★★★",
                 ratingCount: "3,456",
                 price: "9,99 €",
@@ -194,7 +194,7 @@ const produitsParCategorie = {
             {
                 id: 3,
                 title:"Clairefontaine 8570Cpack Lot de 5 Cahiers à Spirale Studium - A5+ 16x21 cm - 160 Pages ",
-                image: "images/cahier.webp",
+                image: "cahier.webp",
                 rating: "★★★★☆",
                 ratingCount: "2,134",
                 price: "14,99 €",
@@ -204,7 +204,7 @@ const produitsParCategorie = {
             {
                 id: 4,
                 title: "Calculatrice scientifique avec fonctions graphiques - Plusieurs modes avec interface intuitive",
-                image: "images/calculatrice.webp",
+                image: "calculatrice.webp",
                 rating: "★★★★★",
                 ratingCount: "1,987",
                 price: "29,99 €",
@@ -214,7 +214,7 @@ const produitsParCategorie = {
             {
                 id: 5,
                 title: "Esselte - Classeurs à Levier, Capacité 500 Feuilles, Dos de 75 mm, Classeur A4 Léger & Solide, Maison/Bureau",
-                image: "images/classeurs.webp",
+                image: "classeurs.webp",
                 rating: "★★★★☆",
                 ratingCount: "876",
                 price: "19,99 €",
@@ -224,7 +224,7 @@ const produitsParCategorie = {
             {
                 id: 6,
                 title: "Staedtler 364 WP8 Textsurfer Classic, Surligneurs Fluorescents De Haute Qualité Résistants ",
-                image: "images/posca.webp",
+                image: "posca.webp",
                 rating: "★★★★★",
                 ratingCount: "3,210",
                 price: "7,99 €",
@@ -234,7 +234,7 @@ const produitsParCategorie = {
             {
                 id: 7,
                 title: "POPRUN Agenda Professionnel 2025, 22 x 16,5cm EU-25 Couverture Rigide - Avec Boucle de Stylo Amovible",
-                image: "images/agenda.webp",
+                image: "agenda.webp",
                 rating: "★★★★☆",
                 ratingCount: "1,543",
                 price: "12,99 €",
@@ -244,7 +244,7 @@ const produitsParCategorie = {
             {
                 id: 8,
                 title: "Naruto Fourniture Scolaire, Set Papeterie, Trousse, Cahier, Carnet, Crayon, Stylo",
-                image: "images/naruto.webp",
+                image: "naruto.webp",
                 rating: "★★★★★",
                 ratingCount: "2,345",
                 price: "14,95 €",
@@ -259,7 +259,7 @@ const produitsParCategorie = {
             {
                 id: 1,
                 title: "PC de Jeu Haut de Gamme - AMD Ryzen 7 7800X3D",
-                image: "images/pcgamer.jpg",
+                image: "pcgamer.jpg",
                 rating: "★★★★★",
                 ratingCount: "5,678",
                 price: "1 299,99 €",
@@ -269,7 +269,7 @@ const produitsParCategorie = {
             {
                 id: 2,
                 title: "Casque de réalité virtuelle avec contrôleur",
-                image: "images/casque.webp",
+                image: "casque.webp",
                 rating: "★★★★☆",
                 ratingCount: "3,212",
                 price: "349,99 €",
@@ -279,7 +279,7 @@ const produitsParCategorie = {
             {
                 id: 3,
                 title: "Gawfolk Moniteur de jeu incurvé de 32 , 180 Hz, 165 Hz, 144 Hz, Full HD 1080p",
-                image: "images/Gawfolk.webp",
+                image: "Gawfolk.webp",
                 rating: "★★★★★",
                 ratingCount: "4,321",
                 price: "399,99 €",
@@ -289,7 +289,7 @@ const produitsParCategorie = {
             {
                 id: 4,
                 title: "EMPIRE GAMING - Nouveau 2025 - K248 Clavier Mécanique Gaming Filaire Switches MX Red (FR AZERTY)",
-                image: "images/clavier.webp",
+                image: "clavier.webp",
                 rating: "★★★★☆",
                 ratingCount: "2,987",
                 price: "89,99 €",
@@ -299,7 +299,7 @@ const produitsParCategorie = {
             {
                 id: 5,
                 title: "Newskill EOS Ratón Gaming Professional RGB 16000DPI",
-                image: "images/souris.webp",
+                image: "souris.webp",
                 rating: "★★★★★",
                 ratingCount: "3,456",
                 price: "59,99 €",
@@ -309,7 +309,7 @@ const produitsParCategorie = {
             {
                 id: 6,
                 title: "Devoko LED Chaise Gaming avec Massage en Cuir PU, Chaise Gamer Ergonomique avec Repose-Pieds ",
-                image: "images/fet.webp",
+                image: "fet.webp",
                 rating: "★★★★☆",
                 ratingCount: "1,543",
                 price: "249,99 €",
@@ -319,7 +319,7 @@ const produitsParCategorie = {
             {
                 id: 7,
                 title: "FIFINE Table de mixage audio pour PC, RVB, interface microphone XLR, contrôle individue",
-                image: "images/table.webp",
+                image: "table.webp",
                 rating: "★★★★★",
                 ratingCount: "876",
                 price: "499,99 €",
@@ -329,7 +329,7 @@ const produitsParCategorie = {
             {
                 id: 8,
                 title: "LEICKE Enceinte Bluetooth Portable Étanche Haut Parleur de Douche sans Fil Haute stéréo LED Lumière Ventouse puissante",
-                image: "images/baf.webp",
+                image: "baf.webp",
                 rating: "★★★★☆",
                 ratingCount: "2,134",
                 price: "179,99 €",
@@ -396,7 +396,7 @@ function chargerProduits() {
 
 document.addEventListener('DOMContentLoaded', chargerProduits);
 
-// Gestion du panier
+
 document.addEventListener('click', function(e) {
     if (e.target.classList.contains('add-to-cart')) {
         const productCard = e.target.closest('.product-card');
@@ -441,40 +441,26 @@ function chargerProduits() {
             </div>
         `;
         container.insertAdjacentHTML('beforeend', cardHTML);
-    });
+    })
 }
 
-
-
-
-
-
-
-
-
-
-
-///////////
-///////////////////////////////
-
-// Après avoir généré les cartes produits, ajoute un écouteur pour les boutons "Acheter cet article"
 document.addEventListener("DOMContentLoaded", function() {
-    // Attendre que toutes les cartes produits soient générées
-    // Ici, on suppose que chaque carte produit contient un bouton avec la classe "buy-now"
+    
+    
     const buyNowButtons = document.querySelectorAll('.buy-now');
 
     buyNowButtons.forEach(button => {
         button.addEventListener('click', function() {
-            // Récupérer la carte produit parente
+            
             const card = this.closest('.product-card');
 
-            // Vérifier que la carte possède bien les éléments attendus
+            
             const titleElement = card.querySelector('.product-title');
             const priceElement = card.querySelector('.price');
             const imageElement = card.querySelector('img');
             const deliveryElement = card.querySelector('.delivery-info');
 
-            // Créer un objet produit avec les informations récupérées
+            
             const produitAchete = {
                 title: titleElement ? titleElement.textContent : "",
                 price: priceElement ? priceElement.textContent : "",
@@ -482,10 +468,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 delivery: deliveryElement ? deliveryElement.textContent : ""
             };
 
-            // Stocker l'objet dans localStorage
+            
             localStorage.setItem('produitAchete', JSON.stringify(produitAchete));
 
-            // Rediriger vers formulaire.html
+            
             window.location.href = "formulaire.html";
         });
     });

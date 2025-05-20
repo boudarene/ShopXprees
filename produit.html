@@ -6,14 +6,14 @@
     <title>ShopXpress - Collection Pantalons</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        /* Container principal */
+       
         .products-container {
             max-width: 1400px;
             margin: 0 auto;
             padding: 0 15px;
         }
         
-        /* Grille horizontale */
+        
         .products-horizontal {
             display: flex;
             overflow-x: auto;
@@ -24,7 +24,7 @@
             scrollbar-width: thin;
         }
         
-        /* Carte produit */
+       
         .product-card {
             flex: 0 0 280px;
             border: 1px solid #e7e7e7;
@@ -35,7 +35,7 @@
             flex-direction: column;
         }
         
-        /* Conteneur image - Taille augmentée */
+       
         .product-image-container {
             width: 100%;
             height: 280px;
@@ -56,7 +56,7 @@
             object-fit: contain;
         }
         
-        /* Détails produit - Alignement naturel */
+        
         .product-details {
             display: flex;
             flex-direction: column;
@@ -131,7 +131,7 @@
             background-color: #F7CA00;
         }
         
-        /* Barre de défilement */
+       
         .products-horizontal::-webkit-scrollbar {
             height: 6px;
         }
@@ -145,7 +145,7 @@
             border-radius: 3px;
         }
         
-        /* Section supplémentaire */
+        
         .additional-products {
             margin-top: 40px;
         }
@@ -156,21 +156,21 @@
 }
 
 .product-card {
-    width: 23%; /* Pour afficher exactement 4 produits par ligne */
+    width: 23%; 
     box-sizing: border-box;
-    margin-bottom: 20px; /* Espacement entre les lignes */
+    margin-bottom: 20px; 
 }
 
-/* S'assurer que l'affichage reste correct sur petits écrans */
+
 @media (max-width: 1024px) {
     .product-card {
-        width: 48%; /* Deux produits par ligne sur tablettes */
+        width: 48%; 
     }
 }
 
 @media (max-width: 768px) {
     .product-card {
-        width: 100%; /* Un produit par ligne sur mobiles */
+        width: 100%; 
     }
 }
 
@@ -181,14 +181,14 @@
     <div class="products-container">
         <h1 id="category-title" class="my-4">Nos Produits</h1>
         <div class="products-horizontal" id="products-list">
-            <!-- Les produits seront chargés ici par JavaScript -->
+            
         </div>
     </div>
 
-    <!-- Ajoutez dans votre HTML -->
+   
 <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 <script>
-    emailjs.init('VOTRE_USER_ID'); // Initialisez avec votre ID EmailJS
+    emailjs.init('VOTRE_USER_ID'); 
 </script>
 
    

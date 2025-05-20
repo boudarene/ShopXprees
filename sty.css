@@ -1,21 +1,21 @@
-/* Styles généraux */
+
 body {
     font-family: Arial, sans-serif;
 }
 
-/* Barre de navigation */
+
 .navbar .container-fluid {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-/* Logo */
+
 .logo {
-    height: 45px; /* Taille améliorée */
+    height: 45px; 
 }
 
-/* Livraison */
+
 .livraison {
     color: white;
     font-size: 12px;
@@ -26,7 +26,7 @@ body {
     font-size: 14px;
 }
 
-/* Barre de recherche */
+
 .search-bar {
     display: flex;
     align-items: center;
@@ -38,7 +38,7 @@ body {
     width: 100%;
 }
 
-/* Bouton catégorie "Tous ▼" */
+
 .categorie-btn {
     background-color: #e6e6e6;
     border: none;
@@ -51,7 +51,7 @@ body {
     white-space: nowrap;
 }
 
-/* Champ de recherche */
+
 .search-bar input {
     flex: 1;
     border: none;
@@ -60,7 +60,7 @@ body {
     font-size: 14px;
 }
 
-/* Bouton recherche */
+
 .search-btn {
     background-color: #ff9900;
     border: none;
@@ -77,13 +77,13 @@ body {
     height: 16px;
 }
 
-/* Langue */
+
 .langue {
     color: white;
     margin: 0 10px;
 }
 
-/* Compte utilisateur */
+
 .compte,
 .commandes {
     color: white;
@@ -96,14 +96,14 @@ body {
     font-size: 14px;
 }
 
-/* Panier */
+
 .panier {
     color: white;
     font-size: 14px;
     margin-left: 15px;
 }
 
-/* Image sous la barre de navigation */
+
 .banner {
     text-align: center;
 }
@@ -114,30 +114,30 @@ body {
 }
 .langue {
     display: flex;
-    align-items: center; /* Aligne le drapeau et le texte */
+    align-items: center; 
     color: white;
     margin: 0 10px;
 }
 
 .drapeau {
-    width: 25px; /* Taille du drapeau */
+    width: 25px; 
     height: auto;
-    margin-right: 5px; /* Espacement entre l'image et le texte */
+    margin-right: 5px; 
 }
 
 .livraison {
     display: flex;
     align-items: center;
-    gap: 5px; /* Ajuste l’espace entre l’icône et le texte */
+    gap: 5px; 
     color: white;
     font-size: 14px;
     font-weight: bold;
 }
 
 .livraison i {
-    font-size: 16px; /* Taille de l'icône */
-    color: white; /* Couleur blanche */
-    margin-right: 3px; /* Espacement */
+    font-size: 16px; 
+    color: white; 
+    margin-right: 3px; 
 }
 
 .livraison-text {
@@ -159,9 +159,9 @@ body {
 }
 
 .livraison {
-    margin-right: 20px; /* Ajuste cette valeur selon l'espace voulu */
+    margin-right: 20px; 
 }
-/* Style pour la zone de livraison */
+
 .livraison {
     display: flex;
     align-items: center;
@@ -175,7 +175,6 @@ body {
     margin-right: 5px;
 }
 
-/* Style de la popup */
 .popup-container {
     display: none;
     position: fixed;
@@ -217,19 +216,19 @@ body {
 }
 
 .bouton-selectionne {
-    border: 2px solid white; /* Bordure blanche */
-    border-radius: 5px; /* Arrondi les coins */
-    padding: 5px; /* Ajuste l'espace */
+    border: 2px solid white; 
+    border-radius: 5px; 
+    padding: 5px;
 }
-/* Conteneur principal pour le diaporama et les photos superposées */
+
 .banner-container {
     position: relative;
     width: 100%;
-    max-width: 1920px; /* Ajustez selon la taille de votre diaporama */
+    max-width: 1920px;
     margin: 0 auto;
 }
 
-/* Grande photo du diaporama */
+
 .banner {
     width: 100%;
     height: auto;
@@ -241,30 +240,30 @@ body {
     display: block;
 }
 
-/* Conteneur pour les 4 photos superposées */
+
 .overlay-photos {
     position: absolute;
-    top: 70%; /* Position verticale au milieu */
-    left: 50%; /* Position horizontale au milieu */
-    transform: translate(-50%, -50%); /* Centrage précis */
+    top: 70%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
     display: flex;
-    gap: 20px; /* Espace entre les photos */
+    gap: 20px; 
     justify-content: center;
     align-items: center;
-    width: 80%; /* Ajustez la largeur selon vos besoins */
+    width: 80%; 
 }
 
-/* Style pour chaque photo superposée */
+
 .overlay-photo {
-    width: 20%; /* Ajustez la taille des photos */
+    width: 20%; 
     height: auto;
-    border: 2px solid white; /* Bordure pour mieux les distinguer */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre légère */
-    transition: transform 0.3s ease; /* Animation au survol */
+    border: 2px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease; 
 }
 
 .overlay-photo:hover {
-    transform: scale(1.1); /* Zoom léger au survol */
+    transform: scale(1.1); 
 }
 
 .overlay-photo img {
@@ -315,15 +314,15 @@ hr {
     border: 1px solid #ddd;
     margin: 20px 0;
 }
-/* Conteneur principal pour le diaporama et les photos superposées */
+
 .banner-container {
     position: relative;
     width: 100%;
-    max-width: 1920px; /* Ajustez selon la taille de votre diaporama */
+    max-width: 1920px; 
     margin: 0 auto;
 }
 
-/* Grande photo du diaporama */
+
 .banner {
     width: 100%;
     height: auto;
@@ -338,19 +337,19 @@ hr {
 
 .overlay-photos {
     position: absolute;
-    top: 80%; /* Descend un peu les photos */
+    top: 80%; 
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
-    gap: 95px; /* Augmente l’espace entre les images */
+    gap: 95px; 
     justify-content: center;
     align-items: center;
-    width: 90%; /* Ajuste la largeur selon tes besoins */
+    width: 90%; 
 }
 
-/* Augmenter la taille des images */
+
 .overlay-photo {
-    width: 200px; /* Augmente la taille */
+    width: 200px; 
     height: auto;
     border: 3px solid white;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
@@ -361,20 +360,20 @@ hr {
     transform: scale(1.15);
 }
 .overlay-photos {
-    width: 100%; /* S'assurer que rien ne bloque la largeur */
-    max-width: 1500px; /* Ajuste cette valeur selon ton besoin */
+    width: 100%; 
+    max-width: 1500px; 
 }
 .overlay-photos {
-    width: 100%; /* Permet d'utiliser toute la largeur */
-    max-width: 1600px; /* Augmente la limite de largeur */
+    width: 100%;
+    max-width: 1600px; 
 }
 .product-card {
-    background-color: white; /* Couleur verte claire */
-    border-radius: 10px; /* Coins arrondis */
+    background-color: white; 
+    border-radius: 10px; 
     padding: 7px;
-    width: 400px; /* Largeur du cadre */
+    width: 400px; 
     text-align: center;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Ombre légère */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .product-card h2 {
@@ -385,16 +384,16 @@ hr {
 }
 
 .product-image {
-    width: 100%; /* Prend toute la largeur du conteneur */
-    height: auto; /* Ajuste la hauteur automatiquement pour garder les proportions */
-    max-width: 350px; /* Augmente cette valeur si tu veux des images plus grandes */
-    max-height: 350px; /* Augmente cette valeur pour allonger les images */
-    object-fit: cover; /* Garde une bonne qualité d'image */
+    width: 100%;
+    height: auto;
+    max-width: 350px; 
+    max-height: 350px; 
+    object-fit: cover; 
 }
 
 .product-card a {
     display: block;
-    color: #0073e6; /* Bleu pour le lien */
+    color: #0073e6; 
     font-weight: bold;
     text-decoration: none;
     margin-top: 10px;
@@ -408,26 +407,26 @@ hr {
     transform: translate(-50%, -72%);
 }
 .product-image {
-    width: 100%;  /* Ajuste la largeur à 100% du conteneur */
-    height: 300px; /* Hauteur fixe pour toutes les images */
-    object-fit: cover; /* Recadre l'image pour remplir le cadre */
+    width: 100%;  
+    height: 300px; 
+    object-fit: cover; 
 }
 
 .product-card {
-    width: 280px;  /* Même largeur pour toutes les cartes */
-    height: 370px; /* Fixe la même hauteur pour toutes les cartes */
+    width: 280px; 
+    height: 370px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Répartit l'espace uniformément */
+    justify-content: space-between; 
     text-align: center;
 }
 .product-card h2 {
-    height: 50px; /* Fixe la hauteur du titre pour éviter les différences */
-    overflow: hidden; /* Empêche le texte trop long de déborder */
+    height: 50px; 
+    overflow: hidden; 
 }
 .product-card {
-    width: 40%; /* Augmente la largeur des cartes */
-    margin: 0 -6px; /* Réduit l'espace entre les cartes */
+    width: 40%;
+    margin: 0 -6px;
 }
 .popup-container {
     position: fixed;
@@ -439,7 +438,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 9999; /* S'assure qu'elle est au-dessus de tout */
+    z-index: 9999;
 }
 .popup {
     background: white;
@@ -456,26 +455,26 @@ hr {
     display: none;
     position: absolute;
     background: white;
-    width: 350px; /* Augmenter la largeur */
+    width: 350px;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
     padding: 15px;
     border-radius: 5px;
     z-index: 1000;
-    right: 0; /* Aligner à droite */
+    right: 0;
 }
 
 .yellow-btn {
     background: yellow;
     border: none;
-    padding: 12px; /* Augmenter la taille du bouton */
+    padding: 12px; 
     width: 100%;
-    font-size: 16px; /* Agrandir le texte */
+    font-size: 16px; 
     cursor: pointer;
     margin-bottom: 15px;
 }
 
 p {
-    font-size: 14px; /* Taille du texte */
+    font-size: 14px; 
     text-align: center;
 }
 
@@ -495,72 +494,72 @@ h3 {
 }
 
 
-/* Style du bouton principal */
+
 #account-button {
     background: none;
     border: none;
     cursor: pointer;
     padding: 8px 10px;
     font-family: Arial, sans-serif;
-    color: white; /* Texte blanc comme Amazon */
+    color: white; 
     font-size: 14px;
     text-align: left;
     line-height: 1.4;
     transition: color 0.2s;
 }
 
-/* Style du texte "Bonjour..." */
+
 #account-button:first-line {
     font-weight: normal;
-    font-size: 12px; /* Plus petit que "Compte et listes" */
+    font-size: 12px; /
 }
 
-/* Style de "Compte et listes ▼" */
+
 #account-button strong {
     font-weight: bold;
-    font-size: 14px; /* Taille légèrement plus grande */
+    font-size: 14px;
 }
 
-/* Effet de survol (optionnel) */
+
 #account-button:hover {
-    color: #febd69; /* Orange clair au survol, comme Amazon */
+    color: #febd69;
 }
-/* Style pour le bouton principal */
+
 #account-button {
     background: none;
     border: none;
     cursor: pointer;
-    padding: 8px 5px;  /* Réduire le padding pour un look compact */
+    padding: 8px 5px; 
     font-family: Arial, sans-serif;
     color: white;
     text-align: left;
-    line-height: 1.2;  /* Espacement entre les lignes */
+    line-height: 1.2;  
 }
 
-/* Style pour la première ligne */
+
 #account-button .line1 {
     display: block;
     font-size: 12px;
     font-weight: normal;
 }
 
-/* Style pour la deuxième ligne */
+
 #account-button .line2 {
     display: block;
     font-size: 14px;
     font-weight: bold;
 }
 
-/* Effet de survol */
+
 #account-button:hover {
-    color: #febd69;  /* Orange Amazon */
+    color: #febd69;  
 }
 
-/* Pour aligner le texte à gauche et éviter le débordement */
+
 #account-button {
     white-space: nowrap;
 }
-/* ===== Reset et polices de base ===== */
+
 body {
     font-family: "Amazon Ember", Arial, sans-serif;
     margin: 0;
@@ -569,7 +568,7 @@ body {
     color: #111;
 }
 
-/* ===== Style du header Amazon ===== */
+
 .amazon-header {
     background-color: #131921;
     padding: 10px 15px;
@@ -577,7 +576,7 @@ body {
     align-items: center;
 }
 
-/* ===== Bouton de connexion principal ===== */
+
 .account-dropdown {
     position: relative;
     margin-left: 15px;
@@ -610,7 +609,7 @@ body {
     color: #febd69;
 }
 
-/* ===== Menu déroulant ===== */
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -627,7 +626,7 @@ body {
     display: block;
 }
 
-/* ===== Bouton jaune de connexion ===== */
+
 .yellow-btn {
     background: #FFD814;
     border: 1px solid #FCD200;
@@ -644,7 +643,7 @@ body {
     background: #F7CA00;
 }
 
-/* ===== Styles des liens ===== */
+
 .dropdown-content a {
     display: block;
     color: #0066c0;
@@ -659,7 +658,7 @@ body {
     color: #c45500;
 }
 
-/* ===== Titres des sections ===== */
+
 .dropdown-content h3 {
     font-size: 16px;
     margin: 15px 0 5px 0;
@@ -667,7 +666,7 @@ body {
     font-weight: 700;
 }
 
-/* ===== Séparateur ===== */
+
 .dropdown-content hr {
     border: 0;
     height: 1px;
@@ -675,7 +674,7 @@ body {
     margin: 10px 0;
 }
 
-/* ===== Disposition en colonnes ===== */
+
 .dropdown-columns {
     display: flex;
     gap: 20px;
@@ -685,7 +684,7 @@ body {
     flex: 1;
 }
 
-/* ===== Lien "Nouveau client" ===== */
+
 .new-customer {
     font-size: 13px;
     margin-top: 5px;
@@ -707,37 +706,37 @@ body {
     padding: 25px;
     border-radius: 10px;
 }
-/* ===== Bouton principal ===== */
+
 #account-button .line1 {
-    font-size: 13px;  /* Taille exacte pour "Bonjour..." */
+    font-size: 13px; 
     font-weight: 400;
 }
 
 #account-button .line2 {
-    font-size: 14px;  /* Taille exacte pour "Compte et listes" */
+    font-size: 14px;  
     font-weight: 700;
 }
 
-/* Ajustements supplémentaires pour l'exactitude */
+
 #account-button {
-    padding: 6px 9px;  /* Padding original Amazon */
+    padding: 6px 9px; 
 }
 
 .dropdown-content {
-    line-height: 1.4;  /* Interligne spécifique */
+    line-height: 1.4;  
 }
 
 .dropdown-columns {
-    gap: 60px;  /* Espacement entre colonnes */
+    gap: 60px;  
 }
 
  
-/* Agrandissement des sections */
+
 .dropdown-columns > div {
     padding: 15px;
 }
 
-/* Taille de police augmentée pour meilleure lisibilité */
+
 .dropdown-content h3 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -748,32 +747,31 @@ body {
     padding: 8px 0;
 }
 
-/* Bouton de connexion plus visible */
+
 .yellow-btn {
     padding: 12px;
     font-size: 15px;
     margin-bottom: 20px;
 }
-/* ===== MENU DEROULANT COMPACT ===== */
+
 .dropdown-content {
-    width: 320px;  /* Largeur réduite (était 350-400px) */
-    min-height: 380px;  /* Hauteur réduite (était 450-500px) */
-    padding: 18px;  /* Espace interne réduit */
-    right: -10px;  /* Ajustement du centrage */
+    width: 320px; 
+    min-height: 380px; 
+    padding: 18px; 
+    right: -10px;  
 }
 
-/* Espacement entre colonnes réduit */
 .dropdown-columns {
-    gap: 25px;  /* Réduit de 40px */
+    gap: 25px;  
     margin-top: 15px;
 }
 
-/* Padding interne réduit */
+
 .dropdown-columns > div {
     padding: 10px;
 }
 
-/* Taille de police légèrement réduite */
+
 .dropdown-content h3 {
     font-size: 15px;
     margin-bottom: 12px;
@@ -784,33 +782,33 @@ body {
     padding: 6px 0;
 }
 
-/* Bouton plus compact */
+
 .yellow-btn {
     padding: 10px;
     font-size: 14px;
     margin-bottom: 15px;
 }
-/* ===== TEXTE COMPLET SUR UNE LIGNE ===== */
+
 .dropdown-content {
-    width: auto;          /* Largeur adaptative */
-    min-width: 380px;     /* Largeur minimale suffisante */
-    white-space: nowrap;  /* Empêche le retour à la ligne */
+    width: auto;         
+    min-width: 380px;     
+    white-space: nowrap; 
 }
 
 .dropdown-columns {
     display: flex;
-    gap: 40px;            /* Espacement entre colonnes */
+    gap: 40px;           
 }
 
 .dropdown-columns > div {
-    flex: 1;              /* Colonnes de largeur égale */
-    min-width: 160px;     /* Largeur minimale pour contenir le texte */
+    flex: 1;              
+    min-width: 160px;     
 }
 
 .dropdown-content a {
-    white-space: nowrap;  /* Garde le texte sur une ligne */
-    display: block;       /* Maintient le comportement de lien bloc */
-    padding: 7px 5px;     /* Espacement interne optimal */
-    overflow: visible;    /* Affiche tout le texte */
+    white-space: nowrap;  
+    display: block;       
+    padding: 7px 5px;    
+    overflow: visible;    
     text-overflow: clip;
 }
